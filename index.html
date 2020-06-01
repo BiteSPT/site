@@ -1,257 +1,881 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153489194-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-153489194-1');
-</script>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="/img/Logo.png">
-  <title>Bite | Soporte y Diseño en Puerto Vallarta</title>
-  <meta name="description" content="Diseño Web, Soporte Técnico y Diseño Gráfico">
-  <meta name="keywords" content="Soporte técnico, Chat Bot, Marketing Digital, Diseño Web, Diseño Gráfico, Puerto Vallarta, Bahía de Banderas, Reparación de computadoras, Mantenimiento">
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/animate.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <style>
-      #id + div{
-          visibility:hidden;
-      }
-  </style>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Bite | Diseño web, Diseño Gráfico y Soporte Técnico</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <!--header-->
-  <header class="main-header" id="header">
-    <div class="bg-color">
-      <!--nav-->
-      <nav class="nav navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="col-md-12">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="fa fa-bars"></span>
-                        </button>
-              <a href="index.html" class="navbar-brand"><img src="img/logo-sin-fondo-txt-blanco.png" width="30px"></a>
-            </div>
-            <div class="collapse navbar-collapse navbar-right" id="mynavbar">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#header">Inicio</a></li>
-                <li><a href="#feature">servicios</a></li>
-                <li><a href="#portfolio">Socios</a></li>
-                <li><a href="#contact">Contacto</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+<a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Inicio</a></li>
+          <li><a href="#about">Acerca</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <!-- <li><a href="#portfolio">Portafolio</a></li> -->
+          <!-- <li><a href="#team">Equipo</a></li> -->
+          <li><a href="#contact">Contacto</a></li>
+
+        </ul>
       </nav>
-      <!--/ nav-->
-      <div class="container text-center">
-        <div class="wrapper wow fadeInUp delay-05s">
-          <h2 class="top-title">Soporte Técnico, Diseño gráfico y Diseño Web</h2>
-          <h3 class="top-title">En Puerto Vallarta y Bahía de Banderas</h3>
-          <h3 class="title">Bite</h3>
-          <h2><a href="#contact">Contáctanos</a></h2>
-        </div>
-      </div>
+      <!-- .nav-menu -->
+
+      <a href="#about" class="get-started-btn scrollto">Comenzar</a>
+
     </div>
   </header>
-  <!--/ header-->
-  <!---->
-  <section id="feature" class="section-padding">
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
     <div class="container">
       <div class="row">
-        <div class="col-md-3 wow fadeIn delay-01s">
-          <div class="section-title">
-            <h2 class="head-title">Servicios</h2>
-            <hr class="botm-line">
-            <p class="sec-para">Somos expertos en desarrollo y diseño web, así como diseño gráfico y soporte técnico, realizamos nuestro trabajo con dedicación utilizando las mejores herramientas para brindar un excelenete servicio.</p>
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Los mejores servicios a un costo adecuado</h1>
+          <h2>Soluciones en Puerto Vallarta y Bahía de Banderas</h2>
+          <div class="d-lg-flex">
+            <a href="#about" class="btn-get-started scrollto">Empezar</a>
+            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Ver Video <i class="icofont-play-alt-2"></i></a> -->
           </div>
         </div>
-        <div class="col-md-9">
-          <div class="col-md-6 wow fadeInUp delay-02s">
-            <div class="icon">
-              <i class="fa fa-paint-brush"></i>
-            </div>
-            <div class="icon-text">
-              <h3 class="txt-tl">¿Necesitas una diseño?</h3>
-              <p class="txt-para">Utilizamos las mejores herramientas de diseño, nuestros diseñadores cuentan con excelente capacidad creativa.</p>
-            </div>
-          </div>
-          <div class="col-md-6 wow fadeInUp delay-02s">
-            <div class="icon">
-              <i class="fa fa-cogs"></i>
-            </div>
-            <div class="icon-text">
-              <h3 class="txt-tl">Las mejores herramientas</h3>
-              <p class="txt-para">Utilizamos las mejores herramientas para realizar nuestro trabajo y nos preocupamos por que quede bien. </p>
-            </div>
-          </div>
-          <div class="col-md-6 wow fadeInUp delay-02s">
-            <div class="icon">
-              <i class="fa fa-mobile"></i>
-            </div>
-            <div class="icon-text">
-              <h3 class="txt-tl">Responsive Design</h3>
-              <p class="txt-para">No te preocupes si quieres un sitio que se pueda ver en multiples plataformas, nosotros logramos eso y más. </p>
-            </div>
-          </div>
-          <div class="col-md-6 wow fadeInUp delay-02s">
-            <div class="icon">
-              <i class="fa fa-desktop"></i>
-            </div>
-            <div class="icon-text">
-              <h3 class="txt-tl">Soporte Técnico</h3>
-              <p class="txt-para">Contamos con personal experto en Software y Hardware, realizamos servicios en nuestro centro o a Domicilio. </p>
-            </div>
-          </div>
-          <div class="col-md-6 wow fadeInUp delay-02s">
-            <div class="icon">
-              <i class="fa fa-lightbulb-o"></i>
-            </div>
-            <div class="icon-text">
-              <h3 class="txt-tl">Ideas creativas</h3>
-              <p class="txt-para">Utilizamos tus ideas y las re organizamos con la finalidad de satisfacer a todas tus necesidades. </p>
-            </div>
-          </div>
-          <div class="col-md-6 wow fadeInUp delay-02s">
-            <div class="icon">
-              <i class="fa fa-clock-o"></i>
-            </div>
-            <div class="icon-text">
-              <h3 class="txt-tl">Ten calma</h3>
-              <p class="txt-para">Somos dedicados, no necesitas preocuparte por el tiempo, nuestros tiempos de entrega son completamente accesibles. </p>
-            </div>
-          </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
+
   </section>
-  <!---->
-  <section class="section-padding parallax bg-image-2 section wow fadeIn delay-08s" id="cta-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="cta-txt">
-            <h3>Soporte Técnico con Servicio a Domicilio</h3>
-            <p>¿No puedes llevar tu equipo?, ¡Un Técnico Especializado puede ir a resolver el problema!</p>
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Cliens Section ======= -->
+    <section id="cliens" class="cliens section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://www.lefrance.mx/" target="_blank"><img src="assets/img/clients/lefrance.png" class="img-fluid" alt=""></a>
           </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://www.labodegadelperfume.com/" target="_blank"><img src="assets/img/clients/labodegadelperfume.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://topdistribuidora.com/" target="_blank"><img src="assets/img/clients/top_distribuidora.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://www.maxsplace.com.mx/" target="_blank"><img src="assets/img/clients/maxsplace.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://www.boleramaveracruz.com/" target="_blank"><img src="assets/img/clients/bolaremaveracruz.png" class="img-fluid" alt=""></a>
+          </div>
+
         </div>
-        <div class="col-md-4 text-center">
-          <a href="#contact" class="btn btn-submit">AGENDA TU CITA</a>
-        </div>
+
       </div>
-    </div>
-  </section>
-  <!---->
-  <!---->
-  <section class="section-padding wow fadeInUp delay-02s" id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-12">
-          <div class="section-title">
-            <h2 class="head-title">Socios</h2>
-            <hr class="botm-line">
-            <p class="sec-para">Empresas con las que hemos trabajado</p>
+    </section>
+    <!-- End Cliens Section -->
+    
+    <!-- ======= Web Design Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Diseño web</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Contamos con las mejores herramientas y planes que se ajustan a tu medida, aún si necesita una tienda Online o una Landing Page.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Los mejores servicios de Hosting y Dominio, SSL, Cloudflare y Business Mail.</li>
+              <li><i class="ri-check-double-line"></i>Re diseño web, realizamos los cambios necesarios para que tu sitio se vea increíble.</li>
+              <li><i class="ri-check-double-line"></i>Diseño Responsive, adaptable a los diferentes tamaños de pantalla.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Todos nuestros trabajos son optimizados con SEO, así los buscadores podrán indexar tu sitio y con ello poder llegar a más clientes, ¡no esperes más!.
+            </p>
+            <a href="#contact" class="btn-learn-more">Contáctanos</a>
           </div>
         </div>
-        <div class="col-md-9 col-sm-12">
-          <div class="col-md-6 col-sm-6 padding-right-zero">
-            <div class="portfolio-box design">
-              <a href="https://lefrance.mx" target="_blank"><img src="img/marca1.png" alt="" class="img-responsive"></a>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 padding-right-zero">
-            <div class="portfolio-box design">
-              <a href="https://labodegadelperfume.com" target="_blank"><img src="img/marca2.png" alt="" class="img-responsive"></a>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 padding-right-zero">
-            <div class="portfolio-box design">
-              <a href="https://www.boleramaveracruz.com" target="_blank"><img src="img/marca3.png" alt="" class="img-responsive"></a>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 padding-right-zero">
-            <div class="portfolio-box design">
-              <a href="http://www.maxsplace.com.mx" target="_blank"><img src="img/marca4.png" alt="" class="img-responsive"></a>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 padding-right-zero">
-            <div class="portfolio-box design">
-              <a href="https://www.topdistribuidora.com" target="_blank"><img src="img/marca5.png" alt="" class="img-responsive"></a>
-            </div>
-          </div>
-        </div>
+
       </div>
-    </div>
-  </section>
-  <!---->
-  <!---->
-  <section class="section-padding wow fadeInUp delay-05s" id="contact">
-    <div class="container">
-      <div class="row white">
-        <div class="col-md-8 col-sm-12">
-          <div class="section-title">
-            <h2 class="head-title black">Contactanos</h2>
-            <hr class="botm-line">
-            <p class="sec-para black">Siempre hay una solución, realizamos nuestros servicios en Bahía de Banderas y Puerto Vallarta.</p>
+    </section>
+    <!-- Web End Design Section -->
+    
+    <!-- ======= Graphic Design Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Diseño Gráfico</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Las mejores herramientas para llevar a cabo el diseño que necesitas, realizamos cualquier diseño y animación que requieras.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Logos, banners, flyers, tarjetas de presentación.</li>
+              <li><i class="ri-check-double-line"></i>Social Media, ilustración, diseño web.</li>
+              <li><i class="ri-check-double-line"></i>Animación, videoclips cortos, fotografía.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              ¡Que esperas!, solicita una cotización sin ningún tipo de costo o compromiso.
+            </p>
+            <a href="#contact" class="btn-learn-more">Contáctanos</a>
           </div>
         </div>
-        <div class="col-md-12 col-sm-12">
-          <div class="col-md-8 col-sm-8 responsive" >
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59705.68675802606!2d-105.28085386269639!3d20.72624148624865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421479f4e77095f%3A0xe208f583a116f546!2sBite!5e0!3m2!1ses!2smx!4v1582847584925!5m2!1ses!2smx" width="400" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+      </div>
+    </section>
+    <!-- End Graphic Design Section -->
+    
+    <!-- ======= Techincal Support Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Soporte Técnico</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Realizamos soporte técnico a equipo de computo PC/Mac y telefonía móvil Android/iPhone.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Mantenimiento Preventivo y Correctivo.</li>
+              <li><i class="ri-check-double-line"></i>Reemplazo de partes para teléfonos, computadoras o Laptops.</li>
+              <li><i class="ri-check-double-line"></i>Soporte Técnico en equipo de computo y telefonía movil</li>
+            </ul>
           </div>
-          <div class="col-md-4 col-sm-4">
-            <h3 class="cont-title">Visitanos</h3>
-            <div class="location-info">
-                  <p class="white"><span aria-hidden="true" class="fa fa-map-marker"></span>Valle de San Idelfonso #208, Los Encantos, Bahía de Banderas.</p>
-                  <p class="white"><span aria-hidden="true" class="fa fa-phone"></span>Teléfono de contacto: (322) 239 8423</p>
-                  <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span>Email: <a href="" class="link-dec">root.cru@gmail.com</a></p>
-              <div class="pull-right">
-                <a href="https://www.facebook.com/BiteSPT/" target="_blank"><img src="img/facebook.png" class="icon"></a>
-                <a href="https://api.whatsapp.com/send?phone=523222398423" target="_blank"><img src="img/whatsapp.png" class="icon"></a>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Contamos con soporte técnico online, soporte técnico a domicilio o puedes presentarte directamente a nuestro laboratorio.
+            </p>
+            <a href="#contact" class="btn-learn-more">Contáctanos</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Technical Support Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="services" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3>Todos nuestros servicios están <strong>garantizados</strong></h3>
+              <p>
+                No te dejes engañar por empresas falsas que no cumplen con sus trabajos o plazos de entrega
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span> ¿Como funciona el soporte técnico online? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
+                    <p>
+                      Si el problema que presenta el equipo es un problema que podamos resolver a distancia, podemos realizar una conexión remota con su equipo (computo/móvil) y realizar las correcciónes pertinentes o darle instrucciones para que el problema sea resuelto.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span> ¿Cual es el plazo de entrega en el diseño de un sitio web? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
+                    <p>
+                      El plazo de entrega dependerá del tipo de sitio web que se realizará, puede demorar entre 7 días en caso de un sitio informativo o landing page a 1 mes y medio por un sitio más elaborado o tienda online.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>03</span> ¿Manejan paquetes de diseño para redes sociales? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
+                    <p>
+                      Manejamos paquetes adaptados a tus necesidades desde una pieza gráfica hasta un paquete completo que incluya tanto animaciónes como piezas gráficas.
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Why Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Puedes comprobar nuestras habilidades</h3>
+            <p class="font-italic">
+              Contamos con un excelente equipo de trabajo que estará dispuesto a llevar a cabo el proyecto que tengas en mente.
+            </p>
+
+            <div class="skills-content">
+
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">PHP <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Habilidades</h2>
+          <p>Somos expertos en lo que hacemos, sin duda alguna realizamos nuestro trabajo con mucho amor y dedicación</p>
+        </div>
+    
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-code"></i></div>
+              <h4><a href="">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-camera"></i></div>
+              <h4><a href="">Sed ut perspici</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+    
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section> -->
+    <!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <!-- <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+    
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+    
+      </div>
+    </section> -->
+    <!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <!-- <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+    
+        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">App</li>
+          <li data-filter=".filter-card">Card</li>
+          <li data-filter=".filter-web">Web</li>
+        </ul>
+    
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section> -->
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <!-- <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+    
+        <div class="row">
+    
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
               </div>
             </div>
           </div>
+    
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
         </div>
+    
       </div>
-    </div>
-  </section>
-  <!---->
-  <!---->
-  <footer class="" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-7 footer-copyright">
-          © Bite Support - All rights reserved 2020
+    </section> -->
+    <!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <!-- <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
-        <div class="col-sm-5 footer-social">
-          <div class="pull-right hidden-xs hidden-sm">
-            <a href="https://www.facebook.com/BiteSPT/" target="_blank"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="hidden fa fa-twitter"></i></a>
-            <a href="#"><i class="hidden fa fa-pinterest"></i></a>
+    
+        <div class="row">
+    
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <h3>Free Plan</h3>
+              <h4><sup>$</sup>0<span>per month</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+                <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Business Plan</h3>
+              <h4><sup>$</sup>29<span>per month</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>Developer Plan</h3>
+              <h4><sup>$</sup>49<span>per month</span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
+                <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
+                <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
+                <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section> -->
+    <!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+    
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                <p>
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                </p>
+              </div>
+            </li>
+    
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                <p>
+                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                </p>
+              </div>
+            </li>
+    
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p>
+                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                </p>
+              </div>
+            </li>
+    
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p>
+                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                </p>
+              </div>
+            </li>
+    
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                <p>
+                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                </p>
+              </div>
+            </li>
+    
+          </ul>
+        </div>
+    
+      </div>
+    </section> -->
+    <!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p>Estamos cerca de ti, ponte en contacto con nosotros, ¡cotizaciónes sin compromiso y completamente gratis!</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Ubicación:</h4>
+                <p>Valle de San Idelfonso 208, Fraccionamiento Los Encantos, Bahía de Banderas, Nay.</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>root.cru@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+52 (322) 239 - 8423</p>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18807.628866172872!2d-105.25082068498016!3d20.714036172449752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe208f583a116f546!2sBite!5e0!3m2!1ses-419!2smx!4v1590952970235!5m2!1ses-419!2smx" width="100%" height="290" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Nombre(s)</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Este es un campo requerido, por favor ingrese su nombre" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Correo Electrónico</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Ingrese un correo valido" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Su asunto</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Ingrese por lo menos 8 caracteres" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Mensaje</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Escriba su mensaje por favor"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Su mensaje ha sido enviado. ¡Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit">ENVIAR</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Recibe nuestras últimas noticias</h4>
+            <p>Enviamos correos electrónicos informativos con las últimas noticias</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="¡Vamos!">
+            </form>
           </div>
         </div>
       </div>
+    </div> -->
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>BITE</h3>
+            <p>
+              Valle de San Idelfonso 208 <br>
+              Los Encantos, Bahía de Banderas 63735<br>
+              United States <br><br>
+              <strong>Phone:</strong> +52 (322) 239 - 8423<br>
+              <strong>Email:</strong> root.cru@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Favoritos</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terminos y condiciones</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Politica de Privacidad</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nuestros Servicios</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Diseño Web</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Desarrollo Web y de Apps</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Mantenimiento</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Diseño Gráfico</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links text-center">
+            <h4>Nuestras redes sociales</h4>
+            <p>¡Visita nuestras redes sociales!</p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/BiteSPT/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.youtube.com/channel/UCeQi16RBK_HJyUMvadnStsQ?view_as=subscriber" target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=523222398423" target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+              <a href="https://www.pinterest.com.mx/hrodriguez1511/" target="_blank" class="pinterest"><i class="bx bxl-pinterest"></i></a>
+              <a href="https://g.page/BitePV?share" target="_blank" class="map"><i class="bx bx-map"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright 2020 <strong><span>BITE</span></strong>. Todos los derechos reservados
+      </div>
+      <div class="credits">
+        Designed with <span>&#10084;&#65039;</span>
+      </div>
     </div>
   </footer>
-  <!---->
-  <!--contact ends-->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/wow.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="contactform/contactform.js"></script>
-    <div id="id"></div>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+  
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
